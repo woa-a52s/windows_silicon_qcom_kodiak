@@ -1,0 +1,1 @@
+- Changed HID to QCOM0A67
