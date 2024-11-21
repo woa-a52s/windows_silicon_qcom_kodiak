@@ -16,14 +16,6 @@
     </Resource>	
   </Limits>
  
-  <ExclusiveEndpoints>
-    <Endpoint>
-      <HWID>AUCD\QCOM0A29</HWID>
-      <TopologyName>TopologyExternalDisplay*</TopologyName>
-      <PinId>1</PinId>
-    </Endpoint>
-  </ExclusiveEndpoints>
-  
   <ResourceConsumer>
     <!-- Active Phone call -->
     <ConsumerInfo>
