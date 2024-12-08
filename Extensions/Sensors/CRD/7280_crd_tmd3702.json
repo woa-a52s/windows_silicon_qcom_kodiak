@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["CRD"],
+    "hw_platform": ["IDP"],
     "soc_id": ["488","475"]
   },
   "tmd3702_0_platform":{
