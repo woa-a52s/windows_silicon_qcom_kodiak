@@ -5,7 +5,7 @@ Welcome to the Snapdragon 778G Windows BSP Platform repository.
 This repository contains drivers, components and files needed to run Windows on official Snapdragon 778G platforms such as:
 
 - Integrated Development Platform (IDP)
-- Compute Reference Design (CRD)
+- Qualcomm Reference Design (QRD)
 
 We currently support the following chipsets:
 
@@ -15,7 +15,8 @@ We currently support the following chipsets:
 
 In the following variants:
 
-- N/A
+- MSM
+- APQ
 
 And with the following configurations:
 
