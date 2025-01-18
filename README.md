@@ -1,3 +1,4 @@
+
 # Windows on Snapdragon 778G Board Support Package
 
 Welcome to the Snapdragon 778G Windows BSP Platform repository.
@@ -20,11 +21,39 @@ In the following variants:
 
 And with the following configurations:
 
-- N/A
+- Standard (Built in Snapdragon® X53 5G Modem)
 
-## Currently non functional chipset features
+## Reference design support status
 
-- List to be done, consider "everything" for now.
+
+| Feature                | Description                                                                                                    | Working state |
+|------------------------|----------------------------------------------------------------------------------------------------------------|---------------|
+| ⌨️ Side buttons        |                                                                                                                | ✅             |
+| ♋ Cellular Calls       |                                                                                                                | ❌             |
+| ♋ Cellular Data        |                                                                                                                | ✅             |
+| ♋ Cellular Texts       |                                                                                                                | ✅             |
+| ♋ WiFi                 |                                                                                                                | ✅             |
+| 🌡️ Thermal sensors      |                                                                                                                | ✅             |
+| 🎆 GPU                  | Requires a non-DSC panel for display to work                                                                   | ⚠️             |
+| 👆 Touchscreen          |                                                                                                                | ✅             |
+| 💤 Modern Standby       |                                                                                                                | ✅             |
+| 📌 GPS                  |                                                                                                                | ✅             |
+| 📦 UFS                 |                                                                                                                | ✅             |
+| 📲 Display              |                                                                                                                | ✅             |
+| 📳 Vibration motor      |                                                                                                                | ❌             |
+| 📸 [Camera Flash](https://gist.github.com/gus33000/8720db998a7ab9c164bd6a96e00dac32) | Not tested                                        | ❌             |
+| 🔋 Battery              |                                                                                                                | ✅             |
+| 🔌 Charger              |                                                                                                                | ✅             |
+| 🔵 Bluetooth            |                                                                                                                | ✅             |
+| 📺 HDMI / DP out       |                                                                                                                | ❌             |
+| 🧭 Sensors              | Not all sensors are available                                                                                  | ⚠️            |
+| 🧮 SoC Cores            |                                                                                                                | ✅             |
+| 🪵 USB C               |                                                                                                                | ✅             |
+| 📸 Camera Sensors       | Requires Cam Sensor drivers configuration, otherwise camera subsystem is functional                            | ❌             |
+| 🔊 Audio               | Requires WP ADSP for Audio subsystem to work. Workaround hasn't been found yet                                 | ❌             |
+| 🧑‍💼 Hyper-V             | Requires correctly configured WP firmware, only possible with unfused devices                                  | ⚠️            |
+| 🧬 Fingerprint scanner  |                                                                                                                | ❌             |
+
 
 ## Relevant Documentation
 
